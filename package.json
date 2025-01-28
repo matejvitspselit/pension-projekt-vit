@@ -1,0 +1,19 @@
+{
+  "name": "vit-pension-projekt",
+  "version": "1.0.0",
+  "description": "Povinný úkol.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "build": "eleventy",
+    "start": "eleventy --serve",
+    "clean": "rm -rf _site",
+    "test": "echo \"Error: no test specified\" && exit 1"
+    
+  },
+  "author": "Adam Smotek",
+  "license": "ISC",
+  "dependencies": {
+    "@11ty/eleventy": "^3.0.0"
+  }
+}
